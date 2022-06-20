@@ -351,10 +351,16 @@
 "Assets/Scripts/Character.cs"
 "Assets/Scripts/CharacterStatsSO.cs"
 "Assets/Scripts/GameEnumSO.cs"
-"Assets/Scripts/GameEvent.cs"
-"Assets/Scripts/GameEventListener.cs"
+"Assets/Scripts/GameEvents/GameEvent.cs"
+"Assets/Scripts/GameEvents/GameEventListener.cs"
+"Assets/Scripts/GameEvents/Int_GameEvent.cs"
+"Assets/Scripts/GameEvents/Int_GameEventListener.cs"
+"Assets/Scripts/GameEvents/Static_GameEvent.cs"
+"Assets/Scripts/GameEvents/Static_GameEventListener.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/SpecialEventsList.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/Scripts/ValueToTMPText.cs"
 "Assets/Scripts/WeaponSO.cs"
 -langversion:9.0
 

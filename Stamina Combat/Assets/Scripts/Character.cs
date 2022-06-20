@@ -23,6 +23,8 @@ public class Character : MonoBehaviour
     public WeaponSO offHandWeapon;
     public ArmorSO armor;
 
+    public Int_GameEvent HP_Event;
+
     public void Awake(){
       Initialization();
     }
@@ -40,7 +42,8 @@ public class Character : MonoBehaviour
       }
 
       maxHealth = stats.vitality;
-      currentHealth = maxHealth;
+      HP_Event.SetValue(maxHealth);
+      currentHealth = HP_Event.GetValue();
 
       maxStamina = stats.stamina;
       currentStamina = maxStamina;
@@ -55,7 +58,8 @@ public class Character : MonoBehaviour
     }
 
     public void GetHit(int input){
-      currentHealth -= input;
+      HP_Event.UpdateValue(-input);
+      currentHealth = HP_Event.GetValue();
     }
 
     public void LightAttack(){}

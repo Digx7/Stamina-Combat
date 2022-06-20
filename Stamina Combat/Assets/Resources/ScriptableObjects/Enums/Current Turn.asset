@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d957b536e5e2f44399440c6effe37d8, type: 3}
   m_Name: Current Turn
   m_EditorClassIdentifier: 
-  currentTurn: 0
+  currentTurn: 1
   newTurn: {fileID: 11400000, guid: 88a7f0afb4c887f4da0f005d9a4c815a, type: 2}
